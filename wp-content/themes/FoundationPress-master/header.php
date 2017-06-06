@@ -14,6 +14,8 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
@@ -35,20 +37,44 @@
 				</span>
 			</div>
 		</div>
-		<nav class="site-navigation top-bar" role="navigation">
-			<div class="top-bar-left">
-				<div class="site-desktop-title top-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-				</div>
-			</div>
-			<div class="top-bar-right">
-				<?php foundationpress_top_bar_r(); ?>
 
-				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
-					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
-				<?php endif; ?>
+
+<div class="background-infos">
+	<div class="row">
+			<div class="large-3 columns text-left localisation-picto">
+				<p><i class="fa fa-map-marker" aria-hidden="true"></i>Rue de la Coopérative 67000 Strasbourg</p>
 			</div>
+
+			<div class="large-3 columns text-left mail-picto">
+				<p><i class="fa fa-envelope-o fa-1x" aria-hidden="true"></i>contact@coop-strasbourg.fr</p>
+			</div>
+
+			<div class="large-6 columns text-right langues">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/.png" alt="Langues" />
+			</div>
+	</div>
+</div>
+
+</div>
+		<nav>
+				<div class="row">
+					<div class="large-2 columns text-left">
+						<div class="site-desktop-title top-bar-title">
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Logo" class="logo" /></a>
+						</div>
+					</div>
+
+					<div class="top-bar-right">
+						<?php foundationpress_top_bar_r(); ?>
+
+						<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
+							<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
+						<?php endif; ?>
+					</div>
+				</div>
 		</nav>
+
+
 	</header>
 
 	<section class="container">

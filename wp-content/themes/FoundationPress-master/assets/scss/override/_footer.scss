@@ -1,0 +1,33 @@
+.footer-container {
+  background-color: #3d3d3d;
+  height: 88px;
+}
+
+p {
+  color: #838383;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #838383;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+  color: #ffffff;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+i {
+  color: #d8d8d8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mentions, .copyright, .facebook {
+  margin-top: 5px;
+}

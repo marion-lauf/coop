@@ -15,6 +15,10 @@
 
 get_header(); ?>
 
+	<div class="row">
+		<img src="http://via.placeholder.com/1121x525">
+	</div>
+
 <div class="main-wrap" role="main">
 	<article class="main-content">
 	<?php if ( have_posts() ) : ?>
@@ -42,7 +46,7 @@ get_header(); ?>
 		<?php endif; ?>
 
 	</article>
-	<?php get_sidebar(); ?>
+
 
 </div>
 
