@@ -3,3 +3,46 @@
   height: 605px;
   background-color: red;
 }
+
+
+h1 {
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  color: #96ca53;
+}
+
+
+h2 {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  line-height: 30px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 65px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+  color: #3c3c3b;
+  text-decoration: underline;
+  margin-left: -15px;
+}
+
+.contact {
+  background-color: #8dc63f;
+  height: 150px;
+}
+
+
+.hollow {
+  border-radius: 50px;
+}
