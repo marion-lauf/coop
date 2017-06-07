@@ -19,13 +19,13 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('DB_NAME', 'coop-examen');
+define('DB_NAME', 'coop-marion');
 
 /** Utilisateur de la base de données MySQL. */
 define('DB_USER', 'root');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', '');
 
 /** Adresse de l’hébergement MySQL. */
 define('DB_HOST', 'localhost');
@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '8w+U>}1J38*}u {|J=V@x~d,t>M-AZ&{Cd8HZW1=~xQi^6>qjnZ~Uu+J sn(^_Er');
-define('SECURE_AUTH_KEY',  'XGX4Lc4<{kzX*)Aq Nj&53O@`%acb&*tcS,#ev2d1cS3Jf98[<w8T+Ers6pT@t i');
-define('LOGGED_IN_KEY',    '^DOp+v=}mVma5:T:U6I8.Z$v>w+.]#^|F?eV)-Vt*.W-DZ^>)SB:.$&|21W=nC$-');
-define('NONCE_KEY',        'jIwU5{1i{UQ:VxZQE[lK@pIX`J[vCI|!&}pxQ]mw/X**bj>3M5ZvH*ydtyH6GH 7');
-define('AUTH_SALT',        'WL6z?%K M3v_40:kcBYxTi.$mg=9Zi]3?}$RbC 9*(EX?m*(hE+tjy?KV!Zs$8 S');
-define('SECURE_AUTH_SALT', '3e%s86kf~)THw]a8k<X4~YI{s:g#M2}Qr92<ILA)Jsn[}d&Akj8t$Fb/c !~BA/X');
-define('LOGGED_IN_SALT',   'CM9;mW~9F+{1i@HA{WaCP-f%y}u72SbT4M&;Q-i{cUZON-(rj15SFHc&3Q$&lUV#');
-define('NONCE_SALT',       'rm<1D_&jk=?nO/`7cs(Kz|?{5?[ZK.SM}<d#cRl&:WV,JYdR>xgpd0f7HTNwZm6Y');
+define('AUTH_KEY',         '(R.f~b^W9|ZB%3lGY>aofau.6ed@Xo:XP!mr-(*53(GDGs=:2lR1ZuF@#hWI5}Ag');
+define('SECURE_AUTH_KEY',  'yM`cv!,(SdwG1-B_V  !q~o2_I0}M,V^f0Ttg6=F*3#ixSDsg:t5,@2!-N`8wQli');
+define('LOGGED_IN_KEY',    'p.s=-<@6]3vsxLGuU*gUmQ7V5I|y1y5TAx[XZ:Rx7~2UvYi9H]BHgS#PI7g>Z6&j');
+define('NONCE_KEY',        '8yUFicm)-#*SetQbFu:<v;js?2EQ1E-m{o]/=}lGJrz0|]_vCGl?,p)ZQ2P]>-{k');
+define('AUTH_SALT',        'N80Jd&--,:5Y$_QF^tw},8ZYBMOvlf*J)VJvMc9:l(knb-k=F(2.</ng7<L_!9Mq');
+define('SECURE_AUTH_SALT', 'lo(?O`O&_6lMdMp>}%0avBe>v / ^cP7MOaUsrcv_J=>j})Sbn(HjB,;_ysRKQEo');
+define('LOGGED_IN_SALT',   ']A)1G5[0QDZ7~M24FhYU0?L6b3wdWNNvX6$[d3o!o5lLMjPx5%`on%&,zxZX!3{A');
+define('NONCE_SALT',       '(?Z={0-F%Um=wH0O2&d9|YIjIx;^]q4@!J,c~0Jpk,D(hw1%JQu<2dFnJJfV)d9~');
 /**#@-*/
 
 /**
@@ -66,7 +66,7 @@ define('NONCE_SALT',       'rm<1D_&jk=?nO/`7cs(Kz|?{5?[ZK.SM}<d#cRl&:WV,JYdR>xgp
  * si vous leur donnez chacune un préfixe unique.
  * N’utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés !
  */
-$table_prefix  = 'wp_2k17_coop';
+$table_prefix  = 'wp_marion_';
 
 /**
  * Pour les développeurs : le mode déboguage de WordPress.

@@ -14,16 +14,14 @@
  */
 
 get_header(); ?>
-
-	<div class="row">
-		<img src="http://via.placeholder.com/1440x525">
+<br />
+	<div class="row ">
+		<img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slide.png" alt="Logo" class="slide"/>
 	</div>
 
 
 
 <div class="main-wrap" role="main">
-
-
 
 	<div class="row">
 		<h1><b>RÉAMÉNAGEMENT DU QUARTIER COOP STRASBOURG</b></h1>
@@ -56,26 +54,75 @@ get_header(); ?>
 	</div>
 
 	<br />
-
+	<br />
 	<div class="row contact">
-			<h3 align="center"><b>Vous avez un projet en tête, réalisable au quartier de la Coop ?</b></h3>
-			<button class="hollow button success" href="#">CONTACT</button>
+			<h3 class="accroche"><b>Vous avez un projet en tête, réalisable au quartier de la Coop ?
+				<button class="hollow button success" href="#">CONTACT<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fleche.png" alt="fleche" class="fleche"/></button>
+			</b></h3>
 	</div>
 
-
-<div class="row">
+<br />
+<br />
+<div class="row articles">
 	<div class="row small-up-1 medium-up-2 large-up-3">
-	  <div class="column column-block">
+	  <div class="column column">
 	    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/1.png" alt="Logo" class="1"/>
+			<h3 class="titre"><b>Pas de Laiterie à la Coop</b></h3>
+			<h5>Dans le projet initial de réaménagement de la Coop,la salle de concerts de La Laiterie devait venir s’y installer. Ce ne sera finalement pas le cas. Toutefois, le festival Ososphère sera bien accueilli sur le site.</h5>
+			<p>En savoir plus <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fleche1.png" alt="fleche" class="fleche"/></p>
 	  </div>
-	  <div class="column column-block">
+
+	  <div class="column column">
 	    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/2.png" alt="Logo" class="2"/>
+			<h3 class="titre"><b>résultats dévoilés...</b></h3>
+			<h5>Les résultats de l’appel à manifestation d’intérêt pour occuper trois bâtiments de l’ancienne Coop, ont été dévoilés. En effet, Salle d’expo, Fab lab, ateliers d’artistes et espace de co-working occuperont la partie ouest.</h5>
+			<p>En savoir plus <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fleche1.png" alt="fleche" class="fleche"/></p>
 	  </div>
-	  <div class="column column-block">
+
+	  <div class="column column">
 	    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3.png" alt="Logo" class="3"/>
+			<h3 class="titre"><b>les futurs OCCUPANTS de la virgule</b></h3>
+			<h5>Ces espaces couvrant une surface de près de 3000m² seront dédiés à de la création, qu’elle soit artistique, culturelle ou économique.
+			Ouverture prévue de ces nouveaux équipements : premier semestre 2019. </h5>
+			<p>En savoir plus <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fleche1.png" alt="fleche" class="fleche"/></p>
 	  </div>
 	</div>
 </div>
+
+
+<br />
+<div class="row">
+	<div class="large-2 text-left columns">
+		<h4><b>Partenaires</b></h4>
+	</div>
+</div>
+
+	<br />
+	<div class="row">
+		<div class="large-2 text-left columns">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/strasbourg.png" alt="strasbourg" class="strasbourg"/>
+		</div>
+
+		<div class="large-2 text-left columns">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dna.png" alt="dna" class="dna"/>
+		</div>
+
+		<div class="large-2 text-left columns">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cts.png" alt="cts" class="cts"/>
+		</div>
+
+		<div class="large-2 text-left columns">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/strasbourg.png" alt="strasbourg" class="strasbourg"/>
+		</div>
+
+		<div class="large-2 text-left columns">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dna.png" alt="dna" class="dna"/>
+		</div>
+
+		<div class="large-2 text-left columns">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cts.png" alt="cts" class="cts"/>
+		</div>
+
 
 </div>
 
