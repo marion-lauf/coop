@@ -4,8 +4,6 @@
 node_modules/
 assets/stylesheets/
 assets/components/
-assets/javascript/vendor/
-assets/javascript/foundation.js
-assets/javascript/custom/demosite.js
-packaged/
-wpcs/
+license.txt
+.htaccess
+wp-config.php
