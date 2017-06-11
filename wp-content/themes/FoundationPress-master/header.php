@@ -50,7 +50,7 @@
 			</div>
 
 			<div class="large-6 columns text-right langues">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/.png" alt="Langues" />
+				<div id="weglot_here"></div>
 			</div>
 	</div>
 </div>

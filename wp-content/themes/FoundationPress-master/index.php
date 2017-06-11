@@ -15,14 +15,13 @@
 
 get_header(); ?>
 <br />
-	<div class="row ">
-		<img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slide.png" alt="Logo" class="slide"/>
+<section class="texture">
+	<div class="row texture">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slide.png" alt="slide" class="slide"/>
 	</div>
-
-
+</section>
 
 <div class="main-wrap" role="main">
-
 	<div class="row">
 		<h1><b>RÉAMÉNAGEMENT DU QUARTIER COOP STRASBOURG</b></h1>
 		<br />
@@ -57,7 +56,7 @@ get_header(); ?>
 	<br />
 	<div class="row contact">
 			<h3 class="accroche"><b>Vous avez un projet en tête, réalisable au quartier de la Coop ?
-				<button class="hollow button success" href="#">CONTACT<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fleche.png" alt="fleche" class="fleche"/></button>
+				<button class="hollow button success" href="http://localhost/coop-marion/contact/">CONTACT<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fleche.png" alt="fleche" class="fleche"/></button>
 			</b></h3>
 	</div>
 
@@ -93,7 +92,7 @@ get_header(); ?>
 <br />
 <div class="row">
 	<div class="large-2 text-left columns">
-		<h4><b>Partenaires</b></h4>
+		<h4 class="partenaires"><b>Partenaires</b></h4>
 	</div>
 </div>
 

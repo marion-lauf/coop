@@ -1,0 +1,8 @@
+Nom de la base de données: coop-marion
+Préfixe: marion_
+
+Liens exportés sur Migrate DB (Windows): //localhost/coop-marion
+C:\xampp\htdocs\coop-marion
+
+Identifiant: admin
+Mot de passe: admin

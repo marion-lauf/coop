@@ -1,0 +1,40 @@
+h1.titre-contact  {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 70px;
+}
+
+.row input {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+}
+
+.row textarea {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+iframe {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 1270px;
+  text-align: center;
+}
+
+.bouton-404 {
+  background-color: #8dc63f;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 70px;
+  margin-top: 15px;
+}
+
+
+
+.texture {
+  background-image: url(../../assets/images/fond.png);
+  position: relative;
+  margin-top: -50px;
+}

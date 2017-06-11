@@ -1,3 +1,17 @@
+ // POLICES //
+p {
+  color: #838383;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+i {
+  color: #d8d8d8;
+  margin-right: 14px;
+}
+
+
+ // HEADER //
 .background-infos {
   background-color: #3d3d3d;
   width: 100%;
@@ -8,23 +22,8 @@
   margin-top: 15px;
 }
 
- .langues {
-  margin-top: 12px;
- }
 
-
-p {
-  color: #838383;
-  font-size: 13px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-
-i {
-  color: #d8d8d8;
-  margin-right: 14px;
-}
-
+ // MENU //
 
 .menu{
   height: 80px;
@@ -48,3 +47,23 @@ i {
 .logo{
   margin-top: 16px;
 }
+
+
+/* WEGLOT
+
+#weglot_here {
+}
+
+.wg-drop.country-selector a {
+}
+
+.wg-drop.country-selector .wgcurrent a {
+}
+
+.wg-drop.country-selector .wgcurrent {
+}
+
+
+aside.wg-drop.country-selector {
+  margin-top: 15px;
+}  */

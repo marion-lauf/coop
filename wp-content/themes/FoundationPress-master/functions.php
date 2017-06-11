@@ -53,3 +53,16 @@ require_once( 'library/responsive-images.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
+
+add_theme_support( 'post-thumbnails' );
+
+function new_excerpt_length($length) {
+return 60;
+}
+add_filter('excerpt_length', 'new_excerpt_length');
+
+add_filter('excerpt_more', 'gkp_custom_excerpt_more');
+function gkp_custom_excerpt_more($more) {
+   global $post;
+   return '… <div class="large-12 columns en-savoir-plus"><a title="' . get_the_title($post->ID) . '" href="' . get_permalink($post->ID) . '">' . 'En savoir plus' . '</a></div>';
+}
